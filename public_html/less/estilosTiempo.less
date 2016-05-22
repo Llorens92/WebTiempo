@@ -1,13 +1,37 @@
 
-@import "../bower_components/bootstrap/less/bootstrap.less";
-
-.divsdias:extend(.text-center){    
+@altoDivsDias: 320px;
+@altoDivsHoras: 280px;
+.divsdias{      
+    text-align: center;
+    width: 50%;
     float: left;
-    width: 12.5%;
-    height: 320px;
+    height: @altoDivsDias;
+}
+#tiempoHoras{
+    width: 100% !important;
+}
+.parejaDias{
+    padding: 0px !important;
+}
+.parejaHoras{
+    padding: 0px !important;
+}
+div#nombreCiudad, div#nombreDia{
+    text-align: center;
 }
 div#datalist{
     margin-bottom: 30px;
+    padding: 0px;
+}
+div.horas{
+    text-align: center;
+    width: 50%;
+    float: left;
+    border: solid 3px white;     
+    height: @altoDivsHoras;
+}
+p#textoCiudad{
+    font-family: cursive;
 }
 p.diaSemana{
     font-family: cursive;

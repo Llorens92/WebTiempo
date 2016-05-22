@@ -6,8 +6,6 @@
     ".jshintrc",
     "**/*.txt"
   ],
-  "dependencies": {
-    "bootstrap": "3.3.6"
-  },
+  "dependencies": {},
   "devDependencies": {}
 }
